@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+
+<!-- navbar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-info border-bottom border-body navbar-dark bg-secondary " >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-fork-knife text-info">Menna's recipes</i>
+      
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#popular-recipes">Popular items</a>
+        <a class="nav-link" href="#FAQ">FAQ</a>
+        <a class="nav-link" href="#contactForm">Contact</a>
+        <a class="nav-link" href="recipe.html">Example</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<!--hero-->
+<section id="hero">
+    <div class="container-fluid p-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+                <h1>
+                    <div class="display-2 text-primary">Welcome to Menna's Recipes</div>
+
+                </h1>
+                <p class="lead my-4 text-secondary">Sweet or savory, you can find all the best recipes in one place! </p>
+                <button type="button" class="px-4 m-2 btn btn-outline-danger">Explore Recipes</button>
+            </div>
+            <div class="col-md-5 text-center">
+                <span class="mytooltip" data-bs-placement="right" title="Panna cotta">
+                <img class="img-fluid rounded-4" src="img/panna-cotta.jpg" alt="panna-cotta">
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--popular recipes-->
+<section id="popular-recipes" class="bg-light mt-5">
+    <div class="container-fluid py-3">
+        <div class="text-center">
+            <h2 class="display-4 text-primary">Most popular recipes</h2>
+            <p class="lead text-primary text-muted">Our website's most beloved recipes</p>
+
+        </div>
+        <div class="row my-5 justify-content-center align-items-center">
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card h-100">
+                    <img class="card-img-top" src="img/french-toast.jpg" alt="French toast">
+                    <div class="card-body">
+                    <h5 class="card-title">French Toast</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore consequatur sequi deserunt 
+                    </div>
+                    <div class="card-footer">
+                    <small class="text-muted">Sweet sugar breakfast</small>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card h-100">
+                    <img class="card-img-top " src="img/noodles.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Seafood noodles</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci nisi praesentium voluptates dolorum sequi voluptatum!</p>
+                    </div>
+                    <div class="card-footer">
+                    <small class="text-muted">Sour asian seafood</small>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-8 col-lg-4 col-xl-3">
+                <div class="card h-100">
+                    <img class="card-img-top " src="img/strawberry-pudding.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Strawberry Pudding</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, eius libero consectetur corrupti repellat ut!</p>
+                    </div>
+                    <div class="card-footer">
+                    <small class="text-muted">Sweet snack fruit</small>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!--FAQ-->
+<section id="FAQ">
+    <div class="container-fluid justify-content-center align-items-center py-3">
+        <div class="text-center">
+            <h2 class="display-4 text-primary">FAQ</h2>
+            <p class="lead text-muted">Frequently asked questions about our recipes</p>            
+        </div>
+        <div class="accordion col-10 mx-auto " id="accordionPanelsStayOpen">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        <p class="lead text-secondary">Does the website offer vegan food recipes?</p>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <p class="text-secondary"><strong>Yes!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate autem adipisci voluptatem error molestiae velit ut minus assumenda voluptates officiis!</p>
+        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium atque commodi minus vel. Sunt eum sed explicabo doloremque quam laudantium inventore vel architecto ea nemo laborum, atque odio maiores veritatis ipsa assumenda, quo minus sapiente expedita saepe beatae voluptatum. Aliquid.</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        
+        <p class="lead text-secondary">Are the recipes suitable for different skill levels?</p>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, provident nemo eos aut ducimus omnis voluptas sed repudiandae veritatis quia architecto in autem quasi. Perspiciatis non consectetur cupiditate quis quia aut laudantium nostrum quibusdam porro? Doloribus perferendis quaerat hic? Dolorem!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        <p class="lead text-secondary">How can I reach out for more information?</p>
+
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, provident nemo eos aut ducimus omnis voluptas sed repudiandae veritatis quia architecto in autem quasi. Perspiciatis non consectetur cupiditate quis quia aut laudantium nostrum quibusdam porro? Doloribus perferendis quaerat hic? Dolorem!
+
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</section>
+
+
+<!--reviews-->
+<section id="reviews" class="bg-light">
+    <div class="container-lg py-4">
+        <div class="text-center">
+            <h2 class="display-2 text-primary">Reviews</h2>
+            <p class="lead">What website visitors have said about our recipes </p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+  <ul class="list-group ">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+
+    <div class="ms-2 me-auto">
+      <div class="lead fw-bold text-secondary">User 1</div>
+      <p class="lead text-secondary">Best recipes ever!</p>
+    </div>
+    <span class="badge bg-primary rounded-pill">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+    </span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+
+    <div class="ms-2 me-auto">
+      <div class="lead fw-bold text-secondary">User 2</div>
+      <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad impedit quia suscipit.</p>
+    </div>
+    <span class="badge bg-primary rounded-pill">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+    </span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+
+    <div class="ms-2 me-auto">
+      <div class="lead fw-bold text-secondary">User 3</div>
+      <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, itaque.</p>
+    </div>
+    <span class="badge bg-primary rounded-pill">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-half text-warning"></i>
+    </span>
+  </li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--Subscribtion form-->
+<section id="contactForm">
+    <div class="container-lg py-5">
+        <div class="text-center">
+            <h2 class="display-3 text-primary">Subscribe to our newsletter</h2>
+            <p class="lead text-secondary">Never miss a new recipe</p>
+        </div>
+
+        <div class="row justify-content-center my-5">
+            <div class="col-lg-6">
+                <form>
+  <div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating">
+  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label>
+</div>
+   
+  <div class="form-floating my-3">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea">What do you think of our recipes?</label>
+</div>
+<div class="container-lg">
+  <label class="lead mb-3 text-primary">How would you describe your cooking skills level?</label>
+  
+  <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group bg-warning">
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+  <label class="btn btn-outline-warning" for="btnradio1">Beginner</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+  <label class="btn btn-outline-warning" for="btnradio2">Experienced</label>
+
+  <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+  <label class="btn btn-outline-warning" for="btnradio3">Professional</label>
+</div>
+
+</div>
+
+  <div class="my-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Subscribe to our newsletter</label>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/myscript.js"></script>
+</body>
+</html>
